@@ -1,0 +1,11 @@
+controllers:
+    resource:
+        path: ../src/Shared/Controller/
+        namespace: App\Shared\Controller
+    type: attribute
+
+sensorData:
+    resource:
+        path: ../src/SensorDataPost/Infrastructure/Controller/
+        namespace: App\SensorDataPost\Infrastructure\Controller
+    type: attribute

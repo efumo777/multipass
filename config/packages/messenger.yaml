@@ -11,7 +11,8 @@ framework:
 
         routing:
             # Route your messages to the transports
-            # 'App\Message\YourMessage': async
+            'App\SensorDataGet\Application\Message\GetSensorDataInBulk': async
+            'App\SensorDataGet\Application\Message\GetSingleSensorData': async
 
 # when@test:
 #    framework:
